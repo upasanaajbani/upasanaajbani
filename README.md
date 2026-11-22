@@ -14,6 +14,12 @@ software, starting as a test engineer at Sling TV.
   language, and drafts code fixes that a person approves before a pull request opens. I
   built the evaluation dataset that scores its fixes, a sample site with seeded
   accessibility bugs that CI scans on every push, and shared schemas.
+- **House Board** (co-creator with Casey Kelly, private, in development): a shared home
+  dashboard for a wall-mounted iPad and our phones. It brings our Google and iCloud calendars
+  into one agenda and keeps grocery lists and tasks in sync across devices, with Apple
+  Reminders sync on the way. Built with React, TypeScript and Supabase (row-level security,
+  Realtime, Edge Functions), with calendar credentials kept server-side in Supabase Vault.
+  Every panel works by keyboard and screen reader, with axe checks in every test run.
 - **Water Reminder**: a native iOS app I'm building in Xcode to learn iOS development. It
   sends hydration reminders every 30 minutes during the day.
 
@@ -29,7 +35,7 @@ software, starting as a test engineer at Sling TV.
 ## Tools I work with
 
 Appium · Selenium · Maestro · Playwright · axe-core · TypeScript · Java · JavaScript ·
-Python · Jenkins · Docker · GitHub
+Python · React · Supabase · Jenkins · Docker · GitHub
 
 ## Find me
 
